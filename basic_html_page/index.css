@@ -1,0 +1,69 @@
+body
+{
+  margin: 0;
+  background: url("debian.jpg") fixed no-repeat;
+  background-size: cover;
+}
+
+header
+{
+  display: flex;
+  justify-content: end;
+  backdrop-filter: blur(4px);
+  height: 70px;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+  width: 30%;
+  font-size: large;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  color: red;
+}
+
+main{
+  background-color: black;
+  height: 89vh;
+  opacity: 70%;
+}
+
+footer
+{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 75px;
+  background-color: red;
+  bottom: 0;
+}
+
+.fcontent
+{
+  margin-top: 30px;
+}
+
+.content
+{
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 180px;
+}
+
+a
+{
+  color: red;
+  text-decoration: none;
+}
