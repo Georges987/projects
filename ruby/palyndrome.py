@@ -1,4 +1,4 @@
-def reversew(str):
+def reverse(str):
     reverse = ""
     l = len(str)
     i = l
@@ -7,8 +7,8 @@ def reversew(str):
         i-=1
     return reverse
 
-word = input("Entrez un mot :")
-if( word == reversew(word)):
-    print(word, "is a palyndrome")
+word = input("Entrez un mot :").lower()
+if( word == reverse(word)):
+    print(word, " is a palyndrome")
 else:
-    print(word, "isn't a palyndrome")
+    print(word, " isn't a palyndrome")
